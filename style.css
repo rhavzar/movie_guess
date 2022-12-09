@@ -1,0 +1,48 @@
+body {
+    background-color: #2D3A3A;
+}
+#frame_select {
+    /*display: inline-block;*/
+    text-align: center;
+}
+#frame_select a {
+    text-decoration: none;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 24px;
+    background-color: #248232;
+    border-radius: 10px;
+}
+#frame_select a:hover {
+    background-color: #2BA84A;
+}
+
+
+#frame {
+    display: block;
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    border: 8px solid #040F0F;
+    border-radius: 10px;
+}
+p {
+    width: 12%;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+}
+h3 {
+    text-align: center;
+}
