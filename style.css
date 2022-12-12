@@ -1,11 +1,15 @@
 body {
-    background-color: #2D3A3A;
+    background-color: #040F0F;
+}
+h1 {
+    color:white;
 }
 #frame_select {
     /*display: inline-block;*/
+    margin-top: 20px;
     text-align: center;
 }
-#frame_select a {
+#frame_select button {
     text-decoration: none;
     color: white;
     padding-left: 12px;
@@ -19,7 +23,7 @@ body {
     background-color: #248232;
     border-radius: 10px;
 }
-#frame_select a:hover {
+#frame_select button:hover {
     background-color: #2BA84A;
 }
 
@@ -32,7 +36,7 @@ body {
     margin-right: auto;
     margin-top: 30px;
 
-    border: 8px solid #040F0F;
+    border: 8px solid #2D3A3A;
     border-radius: 10px;
 }
 p {
