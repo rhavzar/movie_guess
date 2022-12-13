@@ -19,6 +19,7 @@ h1 {
 
     margin-left: 12px;
     margin-right: 12px;
+    margin-bottom: 30px;
     font-size: 24px;
     background-color: #248232;
     border-radius: 10px;
@@ -47,6 +48,18 @@ p {
     margin-right: auto;
     color:white;
 }
-h3 {
-    text-align: center;
+
+.container {
+    margin: auto;
+    width: 208px;
+}
+#search-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 208px;
+    height: 30px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    
 }
