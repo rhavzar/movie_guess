@@ -27,6 +27,14 @@ let filmNum = Math.floor(Math.random() * 15 + 1);
 
 document.getElementById("frame").src=(filePrefix + "" + filmNum + "" + fileMidfix + "1" + filePostfix);
 
+var textb = document.getElementById("body");
+textb.addEventListener("keydown", function(e) {
+    if (e.code === "Enter")
+    {
+        submitButton();
+    }
+});
+
 function buttonFunctionality(button_name)
 {
     document.getElementById("frame").src=(filePrefix + "" + filmNum + "" + fileMidfix + button_name + filePostfix);

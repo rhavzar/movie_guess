@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Guess</title>
 </head>
-<body onselectstart="return false">
+<body onselectstart="return false" id="body">
     <div class="nav">
         <h1 id="header">framle</h1>
         <a href="https://letterboxd.com/rhavzar/" target="_blank"><i class="fa-solid fa-link" id="chainicon"></i></a>
@@ -25,7 +25,7 @@
 	        <div class="wrapper">
 		        <div class="search-input">
 		            <a href="" target="_blank" hidden></a>
-		            <input id="textbox" type="text" placeholder="Search for the name of a film">
+		            <input id="textbox" type="text" placeholder="Search for the name of a film" autocomplete="off">
                     <span onclick="submitButton();" class="submit" onselectstart="return false"><a>SUBMIT</a></span>
 		            <div class="autocom-box">
 			    <!-- here list are inserted from javascript -->
