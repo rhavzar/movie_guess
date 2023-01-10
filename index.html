@@ -8,24 +8,51 @@
     <title>Movie Guess</title>
 </head>
 <body>
-    <h1 id="header">Welcome to the Movie Guessing Game</h1>
-    <img src="moran.jpg" alt="image" id="frame">
+    <div class="nav">
+        <h1 id="header">framle</h1>
+        <a href="https://letterboxd.com/rhavzar/" target="_blank"><i class="fa-solid fa-link" id="chainicon"></i></a>
+    </div>
+    
+    <img src="" alt="image" id="frame">
     <div id="frame_select">
         <button onclick="buttonFunctionality(1);">1</button>
     </div>
     
-	<p id="guess-count">6 guesses remain</p>
+    <div class="bottom-tab">
 
-	<div class="wrapper">
-		<div class="search-input">
-		  <a href="" target="_blank" hidden></a>
-		  <input id="textbox" type="text" placeholder="Search for the name of a film">
-          <span class="submit"><a onclick="submitButton();">SUBMIT</a></span>
-		  <div class="autocom-box">
-			<!-- here list are inserted from javascript -->
-		  </div>
-	</div>
+        <div id="pregame">
+            <p id="guess-count">6 guesses remain</p>
+	        <div class="wrapper">
+		        <div class="search-input">
+		            <a href="" target="_blank" hidden></a>
+		            <input id="textbox" type="text" placeholder="Search for the name of a film">
+                    <span onclick="submitButton();" class="submit"><a>SUBMIT</a></span>
+		            <div class="autocom-box">
+			    <!-- here list are inserted from javascript -->
+		            </div>
+	            </div>
+            </div>
+        </div>
+        <div id="endgame">
+            <!--
+            <p id="endgame-m">You Lose</p>
+            <div class="compbox">
+                <span class="gb" id="red"></span>
+                <span class="gb" id="red"></span>
+                <span class="gb" id="red"></span>
+                <span class="gb" id="red"></span>
+                <span class="gb" id="red"></span>
+                <span class="gb" id="red"></span>
+            </div>
+
+            <div class="play-again" onclick="window.location.reload(true);">Play Again</div>
+            <div class="save"><a href="#">Save Stats</a></div>
+             -->
+        </div>
+        
+    </div>
     
+    <script src="https://kit.fontawesome.com/0a99af421c.js" crossorigin="anonymous"></script>
 	<script src="suggestions.js"></script> 
     <script src="script.js"></script> 
     <script src="index.js"></script>

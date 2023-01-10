@@ -1,8 +1,40 @@
+@font-face {
+  font-family: BabasNeue;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: PtSansNarrow;
+  src: url(fonts/PTSansNarrow-Regular.ttf);
+}
+
 body {
     background-color: #040F0F;
+    overflow: hidden;
+    font-family: PtSansNarrow;
 }
-h1 {
+.nav {
+}
+.nav h1 {
     color:white;
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: BabasNeue;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#chainicon {
+  font-size: 18px;
+  float: right;
+  margin-right: 30%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color:white;
+}
+#chainicon:hover {
+  color: lightgray;
 }
 #frame_select {
     /*display: inline-block;*/
@@ -12,27 +44,28 @@ h1 {
 #frame_select button {
     text-decoration: none;
     color: white;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
     padding-top: 6px;
     padding-bottom: 6px;
 
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
     margin-bottom: 0px;
-    font-size: 24px;
-    background-color: #248232;
-    border-radius: 10px;
+    font-size: 18px;
+    background-color: #2D3A3A;
+    border-radius: 4px;
+    border: none;
 }
 #frame_select button:hover {
-    background-color: #2BA84A;
+    background-color: darkslategray;
     cursor: pointer;
 }
 
 
 #frame {
     display: block;
-    width: 60%;
+    width: 40%;
     
     margin-left: auto;
     margin-right: auto;
@@ -86,8 +119,10 @@ p {
     width: 20%;
     height: 55px;
     background-color: #248232;
+    padding-top: 2px;
+    padding-bottom: 4px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     line-height: 55px;
     border-radius: 0px 5px 5px 0px;
@@ -112,13 +147,16 @@ p {
     max-height: 280px;
     overflow-y: auto;
     overflow: hidden;
-    width: 100%;
+    width: 94%;
     font-size: 18px;
   }
   .search-input.active .autocom-box{
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
+  }
+  #guess-count {
+    font-size: 20px;
   }
   .autocom-box li{
     list-style: none;
@@ -133,4 +171,54 @@ p {
   }
   .autocom-box li:hover{
     background: #efefef;
+  }
+
+  #endgame-m {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .compbox {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .gb {
+    display: inline-block;
+    padding: 10px;
+    background-color: #2D3A3A;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  #red {
+    background-color: rgb(221, 47, 47);
+  }
+  #green {
+    background-color: rgb(69, 155, 69);
+  }
+  .play-again {
+    margin: auto;
+    padding: 5px;
+    background-color: #248232;
+    color:white;
+    width: 8%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .play-again:hover{
+    background-color: #2BA84A;
+  }
+  .save {
+    width: 10%;
+    text-align: center;
+    margin:auto;
+  }
+  .save a {
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
   }
