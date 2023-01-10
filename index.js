@@ -69,7 +69,7 @@ function gameEndL() {
         + "\t\t<span class=\"gb\" id=\"red\"></span>\n"
         + "\t\t<span class=\"gb\" id=\"red\"></span>\n"
         + "\t</div>\n"
-        + "\t<div class=\"play-again\" onclick=\"window.location.reload(true);\">Play Again</div>\n"
+        + "\t<div class=\"play-again\" onclick=\"window.location.reload(true);\" onselectstart=\"return false\">Play Again</div>\n"
         +  "\t<div class=\"save\"><a href=\"#\">Save Stats</a></div>\n"
     );
 }
@@ -100,7 +100,7 @@ function gameEndW() {
     + "\t<div class=\"compbox\">\n"
     + buttons
     + "\t</div>\n"
-    + "\t<div class=\"play-again\" onclick=\"window.location.reload(true);\">Play Again</div>\n"
+    + "\t<div class=\"play-again\" onclick=\"window.location.reload(true);\" onselectstart=\"return false\">Play Again</div>\n"
     +  "\t<div class=\"save\"><a href=\"#\">Save Stats</a></div>\n");
     console.log(document.getElementById("endgame").innerHTML);
 }
