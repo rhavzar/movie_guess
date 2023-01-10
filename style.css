@@ -24,6 +24,7 @@ body {
     font-weight: normal;
     font-size: 40px;
     letter-spacing: 1px;
+    cursor: default;
 }
 #chainicon {
   font-size: 18px;
@@ -157,6 +158,7 @@ p {
   }
   #guess-count {
     font-size: 20px;
+    cursor: default;
   }
   .autocom-box li{
     list-style: none;
@@ -176,6 +178,7 @@ p {
   #endgame-m {
     margin-bottom: 10px;
     font-size: 20px;
+    cursor: normal;
   }
   .compbox {
     width: 30%;
